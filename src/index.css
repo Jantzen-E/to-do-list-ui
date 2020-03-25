@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.formatListForm {
+  background-color: rgb(79, 96, 122);
+  margin-bottom: 6%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.individualToDo {
+  margin-right: 3%;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.individualToDoDescription {
+  margin-right: 3%;
+} 
+
+/* .individualToDoStatus {
+  text-align: right;
+} */
+
+.statusLabel {
+  margin-right: 1%;
+}
+
+.addSingleItem {
+  margin-right: 3%;
+}
+
+.formLabel {
+  margin-right: 3%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.createButton {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.list {
+  background-color: rgb(79, 96, 122);
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.itemInput {
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.task {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.completedTaskButton {
+  margin-left: 2%;
+}
+
+.addTaskButton {
+  margin-left: 2%;
+}
+
+.taskStatus {
+  margin-right: 2%;
+}
+
+/* .individualToDoStatus {
+  margin-right: 3%;
+} */
