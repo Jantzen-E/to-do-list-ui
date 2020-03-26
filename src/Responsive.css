@@ -64,6 +64,29 @@
 @media screen and (max-width: 630px) {
     .pageTitle {
         font-size: 2.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .taskName {
+        width: 80%;
+    }
+
+    .taskDescription {
+        width: 80%;
+    }
+
+    .taskStatus {
+        width: 80%;
+    }
+
+    .addListInputs {
+        width: 80%;
+    }
+
+    .addTaskButton {
+        width: 25%;
+        margin-top: 3%;
     }
 
     .listTitle {
@@ -71,7 +94,7 @@
     }
 
     .addListTitle {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .listDescription {
