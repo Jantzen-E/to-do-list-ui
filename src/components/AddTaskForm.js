@@ -61,21 +61,29 @@ class AddTaskForm extends React.Component {
         this.setState({[event.target.name]: event.target.value})
     }
 
-    
     render() {
         return(
             <div>
-                <form onSubmit={this.handleSubmit}>
-                    <label className="addSingleItem">Add a task to this list</label>
+                <form onSubmit={this.handleSubmit} className="addTaskForm">
+                    <label className="addSingleItem">Add a task to this list:</label>
                     <input 
                         type="text" 
-                        className="itemInput"
+                        className="taskName"
                         value={this.state.specificTask}
                         required
                         onChange={this.onChangeHandler}
                         name='specificTask'
                     />
-                    <label>Status: </label>
+                    <label className="addTaskDescription">Description: </label>
+                    <input
+                        type="text"
+                        value={this.state.description}
+                        required
+                        onChange={this.onChangeHandler}
+                        name='description'
+                        className="taskDescription"
+                    />
+                    <label className="addTaskStatus">Status: </label>
                     <input
                         type="text"
                         value={this.state.status}
@@ -85,14 +93,6 @@ class AddTaskForm extends React.Component {
                         name='status'
                     >
                     </input>
-                    <label>Description: </label>
-                    <input
-                        type="text"
-                        value={this.state.description}
-                        required
-                        onChange={this.onChangeHandler}
-                        name='description'
-                    />
                     <button className="addTaskButton">Add</button>
                 </form>
             </div>

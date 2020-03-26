@@ -23,7 +23,9 @@ class AddListForm extends React.Component {
             description: this.state.description,
             due: this.state.due
         };
-console.log(list)
+        
+        console.log(list)
+
         fetch(`${uriBase}${api}/lists`, {
             method: 'POST',
             headers: {
@@ -61,11 +63,11 @@ console.log(list)
         return (
             <div>
                 <form className="formatListForm" onSubmit={this.handleSubmit}>
-                    <h3>Create a new to do list</h3>
+                    <h3 className="addListTitle">Create a new to do list</h3>
                     <label className="formLabel">Name of to do list: </label>
                     <input 
                         type="text" 
-                        className="itemInput"
+                        className="addListInputs"
                         required
                         value={this.state.name}
                         onChange={this.onChangeHandler}
@@ -75,17 +77,17 @@ console.log(list)
                     <label className="formLabel">Brief description: </label>
                     <input 
                         type="text" 
-                        className="itemInput"
+                        className="addListInputs"
                         required
                         value={this.state.description}
                         onChange={this.onChangeHandler}
                         name='description'
                     />
                     <br/>
-                    <label className="formLabel">Due date: </label>
+                    <label className="formLabel">Completion Goal: </label>
                     <input 
                         type="text" 
-                        className="itemInput"
+                        className="addListInputs"
                         required
                         value={this.state.due}
                         onChange={this.onChangeHandler}

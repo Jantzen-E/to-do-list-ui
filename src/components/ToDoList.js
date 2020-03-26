@@ -35,9 +35,9 @@ class ToDoList extends React.Component {
         return(
             <div>
                 <div className="list">
-                    <h2>{this.props.list.name}</h2>
-                    <h3>List description: {this.props.list.description} </h3>
-                    <h3>List due date: {this.props.list.due}</h3>
+                    <h2 className="listTitle">{this.props.list.name}</h2>
+                    <h3 className="listDescription">Description: {this.props.list.description} </h3>
+                    <h3>Completion goal: {this.props.list.due}</h3>
                     <ul>
                         {
                             this.state.tasks.map((task) => {

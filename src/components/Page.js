@@ -49,7 +49,7 @@ class Page extends React.Component {
     render() {
         return(
             <div className="centerPage">
-                <h1>Multiple To Do Lists</h1>
+                <h1 className="pageTitle">Multiple To Do Lists</h1>
                 {/* {this.state.lists} */}
                 {
                     this.state.lists.map((list) => {
