@@ -1,5 +1,6 @@
 import React from 'react';
 import { uriBase, api } from '../consts';
+import '../Responsive.css';
 
 class AddListForm extends React.Component {
     constructor(props) {
@@ -23,7 +24,7 @@ class AddListForm extends React.Component {
             description: this.state.description,
             due: this.state.due
         };
-        
+
         console.log(list)
 
         fetch(`${uriBase}${api}/lists`, {

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../index.css';
-import { uriBase, api } from '../consts'
+import { uriBase, api } from '../consts';
+import '../Responsive.css';
 
 class AddTaskForm extends React.Component {
     constructor(props) {

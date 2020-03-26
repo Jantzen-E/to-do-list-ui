@@ -2,6 +2,7 @@ import React from 'react';
 import ToDoList from './ToDoList';
 import AddListForm from './AddListForm';
 import { uriBase, api } from '../consts'
+import '../Responsive.css';
 
 class Page extends React.Component {
     constructor(props) {

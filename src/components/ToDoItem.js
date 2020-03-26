@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Responsive.css';
 
 class ToDoItem extends React.Component {
     constructor(props) {

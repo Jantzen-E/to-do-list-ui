@@ -1,0 +1,100 @@
+@media screen and (max-width: 1150px) {
+    .pageTitle {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .pageTitle {
+        font-size: 3rem;
+    }
+
+    .listTitle {
+        font-size: 2.5rem;
+    }
+
+    .addListTitle {
+        font-size: 2.5rem;
+    }
+
+    .individualToDo {
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+
+    .individualToDoDescription {
+        font-size: .8rem;
+        margin-right: 2%;
+    }
+    
+    .individualToDoStatus {
+        font-size: .8rem;
+    }
+
+    .completedButton {
+        font-size: 1rem;
+    }
+
+    .notCompleted {
+        font-size: 1rem;
+    }
+
+    .formLabel {
+        margin-right: 3%;
+        font-size: 1.4rem;
+    }
+
+    .addListInputs {
+        font-size: 1.2rem;
+    }
+
+    .taskName {
+        font-size: 1.2rem;
+    }
+
+    .taskDescription {
+        font-size: 1.2rem;
+    }
+
+    .taskStatus {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .pageTitle {
+        font-size: 2.5rem;
+    }
+
+    .listTitle {
+        font-size: 2rem;
+    }
+
+    .addListTitle {
+        font-size: 2rem;
+    }
+
+    .listDescription {
+        font-size: 1rem;
+    }
+
+    .listCompletionGoal {
+        font-size: 1rem;
+    }
+
+    #done::before {
+        border-bottom: 2px solid red;
+        -webkit-transform: skewY(-10deg);
+        transform: skewY(-20deg);
+      }
+      
+    #done::after {
+        border-bottom: 2px solid red;
+        -webkit-transform: skewY(10deg);
+        transform: skewY(20deg);
+    }
+
+    .individualToDo {
+        margin-left: -3%;
+    }
+}
