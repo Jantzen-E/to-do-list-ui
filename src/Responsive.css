@@ -95,6 +95,8 @@
 
     .addListTitle {
         font-size: 1.8rem;
+        padding-top: 4%;
+        padding-bottom: 2%;
     }
 
     .listDescription {
