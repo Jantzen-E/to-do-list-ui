@@ -46,7 +46,7 @@ class ToDoItem extends React.Component {
                     <option value="completed" name="completed" onClick={this.onChangeHandler}>completed</option>
                 </select> */}
                 <button className={this.state.isDone ? "notCompleted" : "completedButton"} onClick={this.handleClick}> 
-                    {this.state.isDone == true ? "Undo" : "Completed"}
+                    {this.state.isDone === true ? "Undo" : "Completed"}
                 </button>
             </div>
         );
